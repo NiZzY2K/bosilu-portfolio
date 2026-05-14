@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
 import { FaBehance, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import heroImg from "../assets/Hero.png";
+import heroImg from "../assets/hero.png";
 
 function Hero() {
   return (
