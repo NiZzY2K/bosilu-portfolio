@@ -1,5 +1,5 @@
 import Navbar from "./components/Navbar";
-import Hero from "./sections/Hero";
+import Hero from "./sections/HeroSection";
 import FeaturedProjects from "./sections/FeaturedProjects";
 import Services from "./sections/Services";
 import About from "./sections/About";
@@ -22,7 +22,7 @@ function App() {
 
       <div className="relative z-10">
         <Navbar />
-        <Hero />
+        <HeroSection />
         <FeaturedProjects />
         <Services />
         <About />

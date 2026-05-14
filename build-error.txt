@@ -1,0 +1,23 @@
+
+> bosilu-portfolio@0.0.0 build
+> vite build
+
+vite v8.0.12 building client environment for production...
+[2Ktransforming...✓ 2170 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                                           1.76 kB │ gzip:   0.64 kB
+dist/assets/agency-work-BUf5LLKZ.jpg                    159.19 kB
+dist/assets/cind-technology-BE5B_cgy.jpg                646.04 kB
+dist/assets/speaker-reveal-joU2XIyR.jpg                 884.63 kB
+dist/assets/master-designer-countdown-BqL3jshb.jpg    1,506.41 kB
+dist/assets/master-designer-campaign-CPW_kRFG.jpg     2,039.31 kB
+dist/assets/react-proposal-D01Qwbic.jpg               2,901.97 kB
+dist/assets/hero-CTzK_HCN.png                         4,193.36 kB
+dist/assets/aicsl-flyer-DUk4eHCG.jpg                  8,506.41 kB
+dist/assets/challengesphere-coming-soon-DzX6lnje.jpg  8,843.12 kB
+dist/assets/challengesphere-resource-DzEWjcMw.jpg     9,258.88 kB
+dist/assets/index-qf9F-ioK.css                           48.07 kB │ gzip:   8.00 kB
+dist/assets/index-V3vavlYc.js                           382.71 kB │ gzip: 118.37 kB
+
+✓ built in 177ms
