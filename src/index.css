@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #030507;
+  color: #f5f7fa;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: #00e5ff;
+  color: #030507;
+}
+
+@media (pointer: fine) {
+  body,
+  a,
+  button {
+    cursor: auto;
+  }
+
+  input,
+  textarea,
+  select {
+    cursor: text;
+  }
+
+  .custom-cursor {
+    display: block;
+  }
+}
+
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none;
+  }
+}
+
+@media (pointer: fine) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  label {
+    cursor: none !important;
+  }
+
+  .custom-cursor {
+    display: block;
+  }
+}
+
+@media (pointer: coarse) {
+  .custom-cursor {
+    display: none !important;
+  }
+}
