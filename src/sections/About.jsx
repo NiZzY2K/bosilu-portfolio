@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Award, Briefcase, CalendarDays, Users } from "lucide-react";
 import SectionTitle from "../components/SectionTitle";
-import heroImg from "../assets/hero.png";
 
 const stats = [
   {
@@ -31,6 +30,8 @@ const stats = [
 ];
 
 function About() {
+    const heroImg = "/images/hero.png";
+    
   return (
     <section
       id="about"

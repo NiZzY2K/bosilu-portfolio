@@ -1,9 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Download, Sparkles } from "lucide-react";
 import { FaBehance, FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa";
-import heroImg from "../assets/hero.png";
 
 function Hero() {
+  const heroImg = "/images/hero.png";
+
   return (
     <section
       id="home"
